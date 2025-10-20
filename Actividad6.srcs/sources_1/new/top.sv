@@ -27,8 +27,9 @@ input  logic clk, reset, start,
     output logic [3:0] an
     );
     logic [7:0] resultado;
-    control cpu (.clk(clk), .reset(reset), .xin(swx), .yin(swy), .gcd(resultado));
     
-    x7segmux dis (.clk(clk), .an(an), .reset(reset), .sseg(seg),  .hex3(resultado [7:4]), .hex2(resultado [3:0]));
+    control cpu (.clk(clk), .reset(reset), .start(start), .xin(swx), .yin(swy), .gcd(resultado));
+  
+    x7segmux dis (.clk(clk), .an(an), .reset(reset), .sseg(seg),  .hex1(resultado [7:4]), .hex0(resultado [3:0]));
     
 endmodule
