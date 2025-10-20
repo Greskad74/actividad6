@@ -7,7 +7,7 @@ module control(
 );
     logic [7:0] xreg, yreg;
 
-    typedef enum logic [2:0] {q0, q1, q2, q3, q4, q5, q6} state_type;
+    typedef enum  {q0, q1, q2, q3, q4, q5, q6} state_type;
     /// q0 start, q1 input, q2 test1, q3 test2, q4 y = y -x, q5 x = x - y, q6 done
     state_type now, next;
 

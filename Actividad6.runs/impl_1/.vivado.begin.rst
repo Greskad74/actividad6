@@ -18,3 +18,13 @@
     <Process Command="vivado.bat" Owner="zayam" Host="DESKTOP-HLRNI0H" Pid="14404" HostCore="16" HostMemory="034277163008">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zayam" Host="DESKTOP-HLRNI0H" Pid="6756" HostCore="16" HostMemory="034277163008">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="zayam" Host="DESKTOP-HLRNI0H" Pid="21164" HostCore="16" HostMemory="034277163008">
+    </Process>
+</ProcessHandle>

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1.2 (win64) Build 5164865 Thu Sep  5 14:37:11 MDT 2024
-| Date         : Mon Oct 20 02:00:23 2025
+| Date         : Mon Oct 20 02:32:04 2025
 | Host         : DESKTOP-HLRNI0H running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -73,8 +73,8 @@ Table of Contents
 +----------------+--------------------+------------------+------------------+----------------+--------------+
 |  Clock Signal  |    Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+--------------------+------------------+------------------+----------------+--------------+
-|  clk_IBUF_BUFG | cpu/xreg_1         | reset_IBUF       |                1 |              8 |         8.00 |
 |  clk_IBUF_BUFG | cpu/gcd[7]_i_1_n_0 | reset_IBUF       |                1 |              8 |         8.00 |
+|  clk_IBUF_BUFG | cpu/xreg_1         | reset_IBUF       |                1 |              8 |         8.00 |
 |  clk_IBUF_BUFG | cpu/yreg_0         | reset_IBUF       |                2 |              8 |         4.00 |
 |  clk_IBUF_BUFG |                    | reset_IBUF       |                6 |             21 |         3.50 |
 +----------------+--------------------+------------------+------------------+----------------+--------------+
