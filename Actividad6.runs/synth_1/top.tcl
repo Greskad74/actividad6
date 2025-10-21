@@ -57,6 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 4
+set_param general.usePosixSpawnForFork 1
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
@@ -75,7 +76,8 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
   C:/Users/zayam/barbosa/Actividad6/Actividad6.srcs/sources_1/new/control.sv
-  C:/Users/zayam/barbosa/x7segb/x7segb.srcs/sources_1/new/x7segmux.sv
+  {C:/Users/zayam/barbosa/L07_edge detector/L07_edge detector.srcs/sources_1/new/edge_detect_mealy.sv}
+  C:/Users/zayam/barbosa/Actividad6/Actividad6.srcs/sources_1/new/x7.sv
   C:/Users/zayam/barbosa/Actividad6/Actividad6.srcs/sources_1/new/top.sv
 }
 OPTRACE "Adding files" END { }

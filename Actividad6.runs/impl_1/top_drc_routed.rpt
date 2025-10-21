@@ -1,7 +1,7 @@
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2024.1.2 (win64) Build 5164865 Thu Sep  5 14:37:11 MDT 2024
-| Date         : Mon Oct 20 02:32:18 2025
+| Tool Version : Vivado v.2025.1.1 (win64) Build 6233196 Thu Sep 11 21:27:30 MDT 2025
+| Date         : Mon Oct 20 22:38:11 2025
 | Host         : DESKTOP-HLRNI0H running 64-bit major release  (build 9200)
 | Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
 | Design       : top
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
            Ruledeck: default
-             Max violations: <unlimited>
-             Violations found: 0
-+------+----------+-------------+------------+
-| Rule | Severity | Description | Violations |
-+------+----------+-------------+------------+
-+------+----------+-------------+------------+
+             Max checks: <unlimited>
+             Checks found: 0
++------+----------+-------------+--------+
+| Rule | Severity | Description | Checks |
++------+----------+-------------+--------+
++------+----------+-------------+--------+
 
 2. REPORT DETAILS
 -----------------

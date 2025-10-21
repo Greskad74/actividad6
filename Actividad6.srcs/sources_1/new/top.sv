@@ -30,6 +30,6 @@ input  logic clk, reset, start,
     
     control cpu (.clk(clk), .reset(reset), .start(start), .xin(swx), .yin(swy), .gcd(resultado));
   
-    x7segmux dis (.clk(clk), .an(an), .reset(reset), .sseg(seg),  .hex1(resultado [7:4]), .hex0(resultado [3:0]));
+  x7 display (.clk(clk), .reset(reset), .start(start),.x(swx), .y(swy), .gcd_result(resultado), .sseg(seg), .an(an));
     
 endmodule
